@@ -22,16 +22,17 @@ class TaskListViewModel : ViewModel() {
 
         val taskListUiState: StateFlow<TaskListUiState> =
             _taskListUiState.asStateFlow()
+
         private val _appUiState: MutableStateFlow<AppUiState> =
             MutableStateFlow(AppUiState())
+        val appUiState: StateFlow<AppUiState> =
+            _appUiState.asStateFlow()
 
         private val _insertFormUiState: MutableStateFlow<InsertFormUiState> =
             MutableStateFlow(InsertFormUiState())
         val insertFormUiState: StateFlow<InsertFormUiState> =
             _insertFormUiState.asStateFlow()
 
-        val appUiState: StateFlow<AppUiState> =
-            _appUiState.asStateFlow()
 
         private var taskToEdit: Task = Task()
         private var editTask: Boolean = false

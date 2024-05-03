@@ -30,7 +30,7 @@ import androidx.navigation.NavController
 import com.example.tasklist.viewmodels.TaskListViewModel
 
 @Composable
-fun InsertContact(
+fun InsertTask(
     viewModel: TaskListViewModel,
     navController: NavController,
 ) {

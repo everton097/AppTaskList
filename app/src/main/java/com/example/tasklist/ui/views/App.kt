@@ -57,7 +57,7 @@ fun TaskApp(
                 TaskList(viewModel = viewModel, navController = navController)
             }
             composable(route = AppScreens.InsertTask.name) {
-                InsertContact(viewModel = viewModel, navController = navController)
+                InsertTask(viewModel = viewModel, navController = navController)
             }
         }
     }
