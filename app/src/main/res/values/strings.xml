@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TaskList</string>
+    <string name="task_list">Task List</string>
+    <string name="insert_new_task">Insert new task</string>
+    <string name="insert_task">Insert Task</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit_task">Edit Task</string>
+</resources>
